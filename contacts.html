@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="mobile.css">
+
+</head>
+<body>
+
+    <header>
+        <!--Making a class of the navigation buttons to show all listed navigateable pages-->
+        <nav class="nav">
+            <ul class="nav__list">
+                <!--Making the buttons that takes us to each navigation page-->
+                <!--Button to home page-->
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <!--Button to My Services page-->
+                <li class="nav__item"><a href="contacts.html" class="nav__link">Contact</a></li>
+                <!--Button to About Me page-->
+                <li class="nav__item"><a href="Projectspage.html" class="nav__link">Projects</a></li>
+                <!--Button to My Work page-->
+                <li class="nav__item"><a href="aboutme.html" class="nav__link">About me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Contacts content-->
+    <section class="Contacts" id="Contacts">
+        <!--Making title of  contacts page-->
+        <h2 class="Contactsheader">Contact Information</h2>
+        <!--Creating form for user to fill out-->
+        <form method="post" class="Contacts" id="form">
+                <!--Asking user for name-->
+                <label>Name</label> <input type="text" placeholder="Your Name" name="name"/><br />
+                <!--Asking user for email-->
+                <label>Email</label><input type="email" placeholder="Your Email" name="email" /><br />
+                <!--Asking user for phone number-->
+                <label>Phone Number</label><input type="number" placeholder="Your Number" name="Phone Number" /><br />
+                <!--Asking user if they have any comments-->
+                <textarea name="Comments" placeholder="Comments" class="comments" cols="30" rows="10"></textarea><br />
+                <!--submit button-->
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+
+    
+    <!--Footer section-->
+    <footer>
+        <a href="mailto:callum.tait@ontariotechu.net" class="footer-link">callum.tait@ontariotechu.net</a> 
+        <p>©️ 2022 by Callum Tait</p>
+    </footer>
+
+</body>
+</html>
